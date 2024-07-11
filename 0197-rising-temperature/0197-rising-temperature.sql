@@ -1,6 +1,9 @@
 /* Write your T-SQL query statement below */
-select w2.Id as id 
-from Weather w1
-join Weather w2
-on w1.recordDate = dateadd(day,-1, w2.recordDate)
-where w2.temperature>w1.temperature
+
+
+with cte as
+(
+    select *, lag(temperature) over(order by recordDate       ) as prev_temp, lag(recordDate        ) over(order by recordDate ) as prev_date from Weather
+)
+
+select id from cte where  prev_temp<temperature and datediff(day,prev_date,recordDate)=1
