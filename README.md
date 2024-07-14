@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1161-project-employees-i](https://github.com/rahulrawatanalytics/leetcode/tree/master/1161-project-employees-i) |
 | [1245-user-activity-for-the-past-30-days-i](https://github.com/rahulrawatanalytics/leetcode/tree/master/1245-user-activity-for-the-past-30-days-i) |
 | [1258-article-views-i](https://github.com/rahulrawatanalytics/leetcode/tree/master/1258-article-views-i) |
+| [1278-product-price-at-a-given-date](https://github.com/rahulrawatanalytics/leetcode/tree/master/1278-product-price-at-a-given-date) |
 | [1317-monthly-transactions-i](https://github.com/rahulrawatanalytics/leetcode/tree/master/1317-monthly-transactions-i) |
 | [1338-queries-quality-and-percentage](https://github.com/rahulrawatanalytics/leetcode/tree/master/1338-queries-quality-and-percentage) |
 | [1390-average-selling-price](https://github.com/rahulrawatanalytics/leetcode/tree/master/1390-average-selling-price) |
